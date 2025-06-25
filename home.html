@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chosen Gem Empire</title>
+    <link rel="icon" href="Assets/Layer 12.png">
+    <link rel="stylesheet" href="home-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo-main">
+            <div class="logo">
+                <img src="Assets/logo.png" alt="Logo">
+                <div class="logo-text">
+                    CHOSEN GEM<br>EMPIRE
+                </div>
+            </div>
+        </a>
+        <nav>
+            <div class="nav-links" id="navigation">
+                <img src="Assets/close.jpg" alt="close" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#departments">DEPARTMENTS</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#contactus">CONTACT US</a></li>
+                    </ul>
+            </div>
+            <div class="menu" onclick="showMenu()">
+                <img src="Assets/menu.jpg" alt="menu">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>CHOSEN GEM<br>EMPIRE</h1>
+                <p>Chosen Gem Empire (CGE) is a group of diverse talents that encourages young people to pursue their creativity Godly way. Using their talents to express the love of God, serve society with their ministry and gain income for their talents. Our members range from 6-10 years for kids and 11-25 years for the youth.</p>
+                <div class="founder">
+                    <h2>Miss Clifflin Ladzekpo</h2>
+                    <p>Founder & CEO of Chosen Gem Empire</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Assets/founder 1.png" alt="Founder">
+            </div>
+        </section>
+        <section id="mission-vision">
+            <div class="mission">
+                <h2>MISSION</h2>
+                <p>WE ARE READY TO IMPACT OUR GENERATION AND THE GENERATIONS AFTER. WE ARE CALLED TO SERVE THE LORD AT ALL TIMES. WE ARE KNOWN TO BE CHOSEN CHILDREN WITH GEMS OF GREATNESS TO BRING GLORY TO THE KINGDOM OF OUR MAKER</p>
+            </div>
+            <div class="vision">
+                <h2>VISION</h2>
+                <p>ENCOURAGING AND NURTURING THE AMBITIONS, TALENTS AND DREAMS OF THE YOUTH THROUGH THE LORD'S GUIDANCE AND COUNSELLING.</p>
+            </div>
+            <div class="motto">
+                <h2>MOTTO</h2>
+                <p>SUMUS ELECTI (I AM CHOSEN)</p>
+            </div>
+        </section>
+        <section id="executives">
+            <h2>MEET OUR EXECUTIVES</h2>
+            <div class="executive-grid">
+                <div class="executive">
+                    <img src="Assets/founder 1.png" alt="Executive 1">
+                    <h3>Miss Clifflin Ladzekpo</h3>
+                    <p>Founder</p>
+                </div>
+                <div class="executive">
+                    <img src="Assets/founder 1.png" alt="Executive 2">
+                    <h3>Miss Clifflin Ladzekpo</h3>
+                    <p>CoFounder</p>
+                </div>
+                <div class="executive">
+                    <img src="Assets/founder 1.png" alt="Executive 3">
+                    <h3>Miss Clifflin Ladzekpo</h3>
+                    <p>President</p>
+                </div>
+                <div class="executive">
+                    <img src="Assets/founder 1.png" alt="Executive 4">
+                    <h3>Miss Clifflin Ladzekpo</h3>
+                    <p>Vice President</p>
+                </div>
+                <div class="executive">
+                    <img src="Assets/founder 1.png" alt="Executive 5">
+                    <h3>Miss Clifflin Ladzekpo</h3>
+                    <p>Secretary</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p><strong>Call/WhatsApp:</strong> 233(0) 26 290 9980</p>
+                <p><strong>Instagram:</strong> @chosen_gem_</p>
+                <p><strong>Email:</strong> chosengemempire@gmail.com</p>
+            </div>
+            <div class="contact-image">
+                <img src="Assets/contactimage.png" alt="Contact">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <a href="tel:+233262909980" target="_blank"><img src="Assets/call.svg" alt="call"></a>
+            <a href="https://wa.me/+233262909980" target="_blank"><img src="Assets/whatsapp.svg" alt="call"></a>
+            <a href="https://www.instagram.com/chosen_gem_/?utm_source=ig_web_button_share_sheet" target="_blank"><img src="Assets/instagram.svg" alt="call"></a>
+            <a href="mailto:chosengemempire@gmail.com" target="_blank"><img src="Assets/mail.svg" alt="call"></a>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#departments">DEPARTMENTS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <img src="Assets/copyright.svg" alt="Copyright icon">
+            <p>2025 Chosen Gem Empire</p>
+        </div>
+    </footer>
+    <script>
+        var navigation = document.getElementById("navigation");
+        function showMenu(){
+            navigation.style.right="0"
+        }
+        function hideMenu(){
+            navigation.style.right = "-235px";
+        }
+    </script>
+</body>
+</html>
