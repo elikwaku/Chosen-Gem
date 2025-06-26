@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chosen Gem Empire</title>
+    <link rel="icon" href="Assets/Layer 12.png">
+    <link rel="stylesheet" href="contact-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo-main">
+            <div class="logo">
+                <img src="Assets/logo.png" alt="Logo">
+                <div class="logo-text">
+                    CHOSEN GEM<br>EMPIRE
+                </div>
+            </div>
+        </a>
+        <nav>
+            <div class="nav-links" id="navigation">
+                <img src="Assets/close.jpg" alt="close" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="departments.html">DEPARTMENTS</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+            </div>
+            <div class="menu" onclick="showMenu()">
+                <img src="Assets/menu.jpg" alt="menu">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-us">
+            <div class="connect">
+                Connect With Us
+            </div>
+        </section>
+        <section>
+            <div class="group">
+                <div class="call">
+                    <h4>Call/WhatsApp:</h4>
+                    <p>(233)026 290 9980</p>
+                </div>
+                <div class="email">
+                    <h4>Email:</h4>
+                    <p>chosengemempire@gmail.com</p>
+                </div>
+            </div>
+            <div class="group2">
+                <div class="insta">
+                    <h4>Instagram:</h4>
+                    <p>@chosen_gem_</p>
+                </div>
+                <div class="web">
+                    <h4>Website:</h4>
+                    <p>cge.vercel.app</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="box">
+                <img src="Assets/contactimage.png" alt="contactimage">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="tel:+233262909980" target="_blank"><img src="Assets/call.svg" alt="call"></a>
+            <a href="https://wa.me/+233262909980" target="_blank"><img src="Assets/whatsapp.svg" alt="call"></a>
+            <a href="https://www.instagram.com/chosen_gem_/?utm_source=ig_web_button_share_sheet" target="_blank"><img src="Assets/instagram.svg" alt="call"></a>
+            <a href="mailto:chosengemempire@gmail.com" target="_blank"><img src="Assets/mail.svg" alt="call"></a>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="departments.html">DEPARTMENTS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <img src="Assets/copyright.svg" alt="Copyright icon">
+            <p>2025 Chosen Gem Empire</p>
+        </div>
+    </footer>
+    <script>
+        var navigation = document.getElementById("navigation");
+        function showMenu(){
+            navigation.style.right="0"
+        }
+        function hideMenu(){
+            navigation.style.right = "-235px";
+        }
+    </script>
+</body>
+</html>
